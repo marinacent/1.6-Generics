@@ -10,4 +10,9 @@ public class Person {
         this.surname = surname;
         this.age = age;
     }
+
+    @Override
+    public String toString() {
+        return String.format("%s %s, %s years old", name, surname, age);
+    }
 }
