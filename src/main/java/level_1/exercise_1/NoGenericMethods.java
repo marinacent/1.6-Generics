@@ -1,3 +1,5 @@
+package level_1.exercise_1;
+
 public class NoGenericMethods {
     private String firstArgument;
     private String secondArgument;
