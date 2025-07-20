@@ -7,8 +7,8 @@ public class Main {
         String ARGUMENT_B = "b";
         String ARGUMENT_C = "c";
 
-        NoGenericMethods aFirst = new NoGenericMethods(ARGUMENT_A, ARGUMENT_B, ARGUMENT_C);
-        NoGenericMethods bFirst = new NoGenericMethods(ARGUMENT_B, ARGUMENT_C, ARGUMENT_A);
-        NoGenericMethods cFirst = new NoGenericMethods(ARGUMENT_C, ARGUMENT_A, ARGUMENT_B);
+        System.out.println(new NoGenericMethods(ARGUMENT_A, ARGUMENT_B, ARGUMENT_C));
+        System.out.println(new NoGenericMethods(ARGUMENT_B, ARGUMENT_C, ARGUMENT_A));
+        System.out.println(new NoGenericMethods(ARGUMENT_C, ARGUMENT_A, ARGUMENT_B));
     }
 }

@@ -35,4 +35,9 @@ public class NoGenericMethods {
     public void setThirdArgument(String thirdArgument) {
         this.thirdArgument = thirdArgument;
     }
+
+    @Override
+    public String toString() {
+        return String.format("%s, %s, %s", firstArgument, secondArgument, thirdArgument);
+    }
 }
