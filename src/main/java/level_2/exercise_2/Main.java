@@ -17,5 +17,6 @@ public class Main {
         GenericListMethod.printArguments(stringList);
         GenericListMethod.printArguments(integerList);
         GenericListMethod.printArguments(personList);
+
     }
 }
