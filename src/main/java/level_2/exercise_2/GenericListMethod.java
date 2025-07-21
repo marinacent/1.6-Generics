@@ -6,8 +6,8 @@ import java.util.List;
 
 public class GenericListMethod {
 
-    public static <T> void printArguments(@NotNull List<T> argList) {
-        for (T arg : argList) {
+    public static <T> void printArguments(T... args) {
+        for (T arg : args) {
             System.out.println(arg);
         }
         System.out.println();

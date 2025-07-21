@@ -9,15 +9,14 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        List<String> stringList = Arrays.asList("one string", "two strings", "three strings");
-        List<Integer> integerList = Arrays.asList(1, 2, 3, 4, 5);
-        List<Person> personList = new ArrayList<>();
-        personList.add(new Person("Sophia", "Garcia", 45));
-        personList.add(new Person("Joan", "Pastor", 55));
+        Person sophia = new Person("Sophia", "Garcia", 45);
+        Person joan = new Person("Joan", "Pastor", 55);
 
-        GenericListMethod.printArguments(stringList);
-        GenericListMethod.printArguments(integerList);
-        GenericListMethod.printArguments(personList);
+        GenericListMethod.printArguments(sophia, joan);
+        GenericListMethod.printArguments(1, 2, 3, 4, 5);
+        GenericListMethod.printArguments("one string", "two strings", "three strings");
+        GenericListMethod.printArguments('a');
+        GenericListMethod.printArguments(1.4, 2.3, 8.2);
 
     }
 }
