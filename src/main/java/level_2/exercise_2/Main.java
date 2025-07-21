@@ -1,5 +1,6 @@
 package level_2.exercise_2;
 
+import level_1.exercise_2.GenericMethods;
 import level_1.exercise_2.Person;
 
 import java.util.ArrayList;
