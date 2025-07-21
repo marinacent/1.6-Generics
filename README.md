@@ -46,7 +46,10 @@ Maven 4.0.0
 
 Run the following commands to execute each one of the Main classes:
 
-java -cp target/classes level_1.exercise_1.Main
-java -cp target/classes level_1.exercise_2.Main
-java -cp target/classes level_2.exercise_1.Main
-java -cp target/classes level_2.exercise_2.Main
+```java -cp target/classes level_1.exercise_1.Main```
+
+```java -cp target/classes level_1.exercise_2.Main```
+
+```java -cp target/classes level_2.exercise_1.Main```
+
+```java -cp target/classes level_2.exercise_2.Main```
