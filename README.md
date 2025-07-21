@@ -39,7 +39,7 @@ Maven 4.0.0
 ## 🛠️ Set up
 
 1. Clone repository: ```git clone```
-2. Access project repository: ```cd 1.5-Utils```
+2. Access project repository: ```cd 1.6-Generics```
 3. Compile files: ```mvn compile```
 
 ## ▶️ Run
